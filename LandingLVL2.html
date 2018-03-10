@@ -6,13 +6,7 @@
     <title>Landing</title>
     <link rel="stylesheet" type="text/css" href="index.css">
 
-    <script>
-        var input = document.getElementById("PasswordField");
-        var pass = "information";
-        var location = "#"
 
-    </script>
-    <link rel="script" type="text/javascript" href="PasswordValidator.js">
 </head>
 <body>
 <div class="Box">
@@ -36,10 +30,16 @@
             <text id="LandingHint"><i>By finding the solutions to many smaller questions, you can stumble upon an even greater answer.</i></text>
             <text>Password</text><br>
             <input id="PasswordField" type="password" title="Password"><br>
-            <input id="LogInButton" type="button" onclick="PasswordValid(pass, input, location)" name="Log in" value="Log in">
+            <button id="LogInButton" onclick="passwordValid()">Log in</button>
 
         </div>
     </div>
 </div>
 </body>
+<script>
+    var pass = "information";
+    var local = "LandingLVL2.html";
+
+</script>
+<script src="PasswordValidator.js"></script>
 </html>
