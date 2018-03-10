@@ -1,0 +1,37 @@
+
+.Box{
+
+    display: flex;
+    flex-direction: column;
+    height: 120vh;
+    background: black;
+
+}
+.BannerBar{
+
+    background-color: darkorange;
+}
+#Logo{
+
+
+}
+#LogoPic{
+
+}
+#Banner{
+
+}
+#MenuBar {
+
+    background-color: cadetblue;
+}
+
+.Menu{
+
+}
+
+
+.Content{
+
+    background-color: greenyellow;
+}
