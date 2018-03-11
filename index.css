@@ -48,6 +48,8 @@
     height: 8%;
     float: left;
     order: 2;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 
 }
 
@@ -238,4 +240,26 @@ a{
 #ImageAsFolderText{
     font-size: 1.4vw;
     text-align: center;
+}
+#MirrorPuzzle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#ManyFaces{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.4vw;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#mirroredText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8vw;
 }
