@@ -263,3 +263,31 @@ a{
     align-items: center;
     font-size: 1.8vw;
 }
+#BaguaFamily{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#TheNewClinic{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly ;
+
+    height: 100%;
+    font-size: 1.4vw;
+}
+#NewClinicP1{
+    height: 50%;
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#NewClinicP2{
+    height: 50%;
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#BaguaWinnersTitle{
+    color: red;
+}
