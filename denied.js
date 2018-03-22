@@ -29,7 +29,7 @@ document.onkeydown = function (event) {
 
 
     /////////////////////end///////////////////////
-var message="No no no :)";
+var message="This is not intended for this page. Tread at your own risk!";
 ///////////////////////////////////
 function clickIE() {
     if (document.all) {
