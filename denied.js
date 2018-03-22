@@ -10,6 +10,7 @@ document.onkeypress = function (event) {
 }
 
 
+
 document.onmousedown = function (event) {
     event = (event || window.event);
     if (event.keyCode === 123) {
@@ -19,6 +20,7 @@ document.onmousedown = function (event) {
 }
 
 
+
 document.onkeydown = function (event) {
         event = (event || window.event);
         if (event.keyCode === 123) {
@@ -26,6 +28,7 @@ document.onkeydown = function (event) {
             return false;
         }
     }
+
 
 
     /////////////////////end///////////////////////
@@ -69,5 +72,6 @@ document.onkeydown = function(e) {
         return false;
     }
 }
+
 
 
