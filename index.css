@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
+    font-family: Faune-Text_Regular;
 }
 #landingBox{
     display: flex;
