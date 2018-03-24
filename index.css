@@ -1,3 +1,6 @@
+@font-face { font-family: Faune-Text_Regular; src: url('fonts/Faune-Text_Regular.ttf'); }
+@font-face { font-family: Faune-Text_Regular; font-style: italic; src: url('fonts/Faune-Text_Italic.ttf');}
+
 #landingPage{
     display: flex;
     justify-content: center;
@@ -107,6 +110,7 @@
     order: 3;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    font-family: Faune-Text_Regular;
 }
 #comunityLVL1{
     display: flex;
@@ -298,11 +302,13 @@ a{
     margin-bottom: auto;
 }
 #mirroredText{
+    width: 40%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 1.8vw;
+    font-size: 1.4vw;
 }
 #BaguaFamily{
     display: flex;
@@ -331,4 +337,48 @@ a{
 }
 #BaguaWinnersTitle{
     color: red;
+}
+
+
+/* LVL2 */
+
+#funContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+#funText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    height: 100%;
+    width: 40%;
+    font-size: 1.4vw;
+}
+#funStory{
+
+}
+
+#funMorse{
+
+}
+#funPassField{
+    width: 100%;
+    height: 10%;
+}
+#funPass{
+    font-size: 100%;
+}
+#FunPassButton{
+    width: 10%;
+    height: 45%;
+    align-self: center;
+
+    text-align: center;
+}
+#FunPassButton:hover{
+
 }

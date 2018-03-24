@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115755738-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-115755738-1');
+    </script>
+
+    <meta charset="utf-8">
+    <title>FunCorner</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<div class="Box">
+    <div class="BannerBar">
+        <div id="Logo">
+            <a href="LandingLVL2.html"><img id="LogoPic" src="Images/logo_test.png"></a>
+        </div>
+        <div id="Banner">
+            <img id="BannerImg" src="Images/banner_1.png">
+        </div>
+    </div>
+    <div id="MenuBar">
+        <a href="#" class="Menu">News</a>
+        <a href="#" class="Menu">About</a>
+        <a href="#" class="Menu">Contacts</a>
+        <a href="#" class="Menu">EmployeeChat</a>
+        <a href="FunCorner.html" class="Menu">FunCorner</a>
+    </div>
+    <div class="Content" id="funContent">
+        <div id="funText">
+            <div id="funStory">
+                <div>
+                    <h2>Puzzle of the week</h2>
+                </div>
+                <div>
+                    <p>
+                        Welcome to the puzzle corner.
+                        As we all know office work can be quite tiring and there are times when you want to take a break.
+                        So to help give your brain some much needed rest,
+                        the branch manager got the idea to give you a puzzle, so you can get your mind off of work. You see,
+                        our manager is a major history buff and he is really <text id="funChar">in</text>to hidden messages.
+                        So for your amusement I have put together a little brainteaser.
+                    </p>
+                </div>
+            </div>
+
+        <div id="funMorse">
+            <audio controls>
+                <source src="audioFiles/morse%20(1).mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        <div id="funPassField">
+            <input id="funPass" type="password" title="Password">
+            <button id="FunPassButton" onclick="funValid()">Enter</button>
+        </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="funValidator.js"></script>
+</html>
