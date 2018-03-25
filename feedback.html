@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115755738-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-115755738-1');
+    </script>
+
+    <meta charset="utf-8">
+    <title>Feedback</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<div class="Box">
+    <div class="BannerBar">
+        <div id="Logo">
+            <a href="LandingLVL2.html"><img id="LogoPic" src="Images/logo_test.png"></a>
+        </div>
+        <div id="Banner">
+            <img id="BannerImg" src="Images/banner_1.png">
+        </div>
+    </div>
+    <div id="MenuBar">
+        <a href="#" class="Menu">News</a>
+        <a href="#" class="Menu">About</a>
+        <a href="feedback.html" class="Menu">Feedback</a>
+        <a href="#" class="Menu">EmployeeChat</a>
+        <a href="FunCorner.html" class="Menu">FunCorner</a>
+    </div>
+    <div class="Content" id="feedbackContent">
+        <div id="feedbackMail">
+            <div id="feedText">
+               <p>
+                   Dear manager,
+               </p>
+                <p>
+                    I recently started work at the new clinic and at the start everything was going fine.
+                    I did everything according to the protocol.
+                    As written in the manual, the clients started returning to the clinic at night.
+                    The next few weeks went by without an issue. But then I made a mistake.
+                    I looked into the basement. What I saw down there was a total Land of Confusion. It left me deeply Disturbed.
+                    Now I don't know what to do anymore.
+                </p>
+                <p>
+                    Sincerely, Bob.<br>
+                    PS: Who is the hero of that place?
+                </p>
+            </div>
+            <div id="feedPassField">
+                <input id="feedbackPass" type="password" title="Password">
+                <button id="FeedbackButton" onclick="travelPlan()">Enter</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="feedback.js"></script>
+</html>
