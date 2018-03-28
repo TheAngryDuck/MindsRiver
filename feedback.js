@@ -4,7 +4,7 @@ function travelPlan() {
     console.log("guess: " + guess);
     if (guess.toLowerCase() === "superman"){
         alert("Now, superman is indeed very super, but what if he was less super and more of a Sinner. What would he be called then?" +
-            "\n\n What was the last place/person to where he went to hide?");
+            "\n\n What was the last place/being to where he went to hide, that accepted him?");
 } else if(guess.toLowerCase() === "devil"){
         alert("Now, we know that the devil is a known deceiver and hides behind many faces. Maybe the great fighters of the foo know anything about it." +
             "\n\n What will the fighter never do?");
