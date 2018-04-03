@@ -99,16 +99,12 @@ a{
 #tips{
     text-align: left;
 }
-
-/*LVL1      000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
-    /*PASSWORD_GENERAL     000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
-
 #landingBox{
     display: flex;
     flex-direction: column;
     width: 60%;
     height: 100%;
-    background: linear-gradient(#aae4fa, #6dd0f7);
+    background: linear-gradient(#25b9f4, #097caa);
     justify-content: center;
     text-align: center;
     border-radius: 40px;
@@ -124,6 +120,11 @@ a{
     margin-left: auto;
     justify-content: space-around;
     font-size: 1.8vw;
+
+/*LVL1      000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+    /*PASSWORD_GENERAL     000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+
+
 }
 #passwordLVL1{
     font-size: 3vw;
@@ -151,8 +152,9 @@ a{
     font-size:2vw ;
 }
 #LogInButton{
+    font-family: Faune-Text_Regular;
     width: 50%;
-    height: 40%;
+    height: 60%;
     align-self: center;
     background: #3498db;
     background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
@@ -163,9 +165,9 @@ a{
     -webkit-border-radius: 28px;
     -moz-border-radius: 28px;
     border-radius: 28px;
-    color: #ffffff;
-    font-size: 60%;
-    padding: 0 10% 10% 10%;
+    color: #000000;
+    font-size: 63%;
+    padding: 0 10% 15% 10%;
     text-decoration: none;
     text-align: center;
 
