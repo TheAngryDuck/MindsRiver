@@ -120,7 +120,7 @@ a{
     flex-direction: column;
     width: 60%;
     height: 100%;
-    background: linear-gradient(#25b9f4, #097caa);
+    background: linear-gradient(rgba(37, 185, 244, 0.5), rgba(9, 124, 170, 0.5));
     justify-content: center;
     text-align: center;
     border-radius: 40px;
