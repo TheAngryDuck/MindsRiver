@@ -63,7 +63,7 @@
     margin-left: 2%;
     margin-right: 2%;
     align-self: center;
-    font-size: 1.3vw;
+    font-size: 1.2vw;
     padding: 0.8%;
     background-color: #0db1f2;
 
@@ -494,4 +494,177 @@ a{
 }
 #feedPassField{
     width: 90%;
+}
+/*   EMPLOYEE CHAT  00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+#chatArea{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-family: Faune-Text_Regular;
+    font-size: 120.5%;
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+}
+#dialogue{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 50%;
+    height: 70%;
+}
+#dialogueVol2{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    width: 50%;
+    height: 70%;
+
+}
+.Philip{
+    text-align: left;
+    margin: 0.3%;
+}
+.Scarlett{
+    text-align: right;
+    margin: 0.3%;
+}
+#S1{
+    border-radius: 8px;
+    background-color: #ffffff;
+    width: 18%;
+    text-align: center;
+    margin-top: 2%;
+
+}
+#S2{
+    border-radius: 8px;
+    background-color: #ffffff;
+    width: 20%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+#S3{
+    border-radius: 8px;
+    background-color: #ffffff;
+    width: 33%;
+    text-align: center;
+    margin-bottom: 1%;
+}
+#S4{
+    border-radius: 8px;
+    background-color: #ffffff;
+    width: 17%;
+    text-align: center;
+    margin-bottom: 2%;
+
+}
+#S5{
+    border-radius: 8px;
+    background-color: #ffffff;
+    width: 61%;
+    text-align: center;
+    margin-bottom: 2%;
+
+}
+#S6{
+    border-radius: 8px;
+    background-color: #ffffff;
+    width: 56%;
+    text-align: center;
+}
+#P1{
+    border-radius: 8px;
+    background-color: #ffffff;
+    width: 24%;
+    text-align: center;
+    margin-left: auto;
+    margin-top: 2%;
+}
+#P2{
+    border-radius: 8px;
+    background-color: #ffffff;
+    width: 30%;
+    text-align: center;
+    margin-left: auto;
+    margin-bottom: 2%;
+}
+#P3{
+    border-radius: 8px;
+    background-color: #ffffff;
+    width: 43%;
+    text-align: center;
+    margin-left: auto;
+    margin-bottom: 1%;
+}
+#P4{
+    border-radius: 8px;
+    background-color: #ffffff;
+    width: 64%;
+    text-align: center;
+    margin-left: auto;
+    margin-bottom: 2%;
+}
+#P5{
+    border-radius: 8px;
+    background-color: #ffffff;
+    width: 13%;
+    text-align: center;
+    margin-left: auto;
+    margin-bottom: 2%;
+}
+#P6{
+    border-radius: 8px;
+    background-color: #ffffff;
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-bottom: 1%;
+}
+#P7{
+    border-radius: 8px;
+    background-color: #ffffff;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+}
+#W1{
+    border-radius: 8px;
+    background-color: #ffffff;
+    text-align: center;
+    margin-left: auto;
+
+
+}
+.blue:hover{
+    color: blue;
+    font-size: 140%;
+}
+.green:hover{
+    color: darkgreen;
+    font-size: 140%;
+}
+.red:hover{
+    color: red;
+    font-size: 140%;
+}
+.grey:hover{
+    color: grey;
+    font-size: 140%;
+}
+.purple:hover{
+    color: purple;
+    font-size: 140%;
+}
+.gold:hover{
+    color: gold;
+    font-size: 140%;
+}
+.pink:hover{
+    color: pink;
+    font-size: 140%;
+}
+.brown:hover{
+    color: brown;
+    font-size: 140%;
 }
