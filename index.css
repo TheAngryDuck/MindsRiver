@@ -680,3 +680,20 @@ a{
     color: brown;
     font-size: 140%;
 }
+/*  MAP     000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+#mapArea{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#mapName{
+    text-align: center;
+}
+#map{
+    text-align: center;
+    font-family: calibri;
+    font-size: 1.3vw;
+}
+#start{
+    cursor: pointer;
+}
