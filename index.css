@@ -535,6 +535,7 @@ a{
     width: 18%;
     text-align: center;
     margin-top: 2%;
+    margin-left: 1%;
 
 }
 #S2{
@@ -543,6 +544,7 @@ a{
     width: 20%;
     text-align: center;
     margin-bottom: 2%;
+    margin-left: 1%;
 }
 #S3{
     border-radius: 8px;
@@ -550,6 +552,7 @@ a{
     width: 33%;
     text-align: center;
     margin-bottom: 1%;
+    margin-left: 1%;
 }
 #S4{
     border-radius: 8px;
@@ -557,7 +560,7 @@ a{
     width: 17%;
     text-align: center;
     margin-bottom: 2%;
-
+    margin-left: 1%;
 }
 #S5{
     border-radius: 8px;
@@ -565,13 +568,14 @@ a{
     width: 61%;
     text-align: center;
     margin-bottom: 2%;
-
+    margin-left: 1%;
 }
 #S6{
     border-radius: 8px;
     background-color: #ffffff;
     width: 56%;
     text-align: center;
+    margin-left: 1%;
 }
 #P1{
     border-radius: 8px;
@@ -580,6 +584,7 @@ a{
     text-align: center;
     margin-left: auto;
     margin-top: 2%;
+    margin-right: 1%;
 }
 #P2{
     border-radius: 8px;
@@ -588,6 +593,7 @@ a{
     text-align: center;
     margin-left: auto;
     margin-bottom: 2%;
+    margin-right: 1%;
 }
 #P3{
     border-radius: 8px;
@@ -596,6 +602,7 @@ a{
     text-align: center;
     margin-left: auto;
     margin-bottom: 1%;
+    margin-right: 1%;
 }
 #P4{
     border-radius: 8px;
@@ -604,6 +611,7 @@ a{
     text-align: center;
     margin-left: auto;
     margin-bottom: 2%;
+    margin-right: 1%;
 }
 #P5{
     border-radius: 8px;
@@ -612,6 +620,7 @@ a{
     text-align: center;
     margin-left: auto;
     margin-bottom: 2%;
+    margin-right: 1%;
 }
 #P6{
     border-radius: 8px;
@@ -620,6 +629,7 @@ a{
     text-align: center;
     margin-left: auto;
     margin-bottom: 1%;
+    margin-right: 1%;
 }
 #P7{
     border-radius: 8px;
@@ -627,12 +637,14 @@ a{
     width: 50%;
     text-align: center;
     margin-left: auto;
+    margin-right: 1%;
 }
 #W1{
     border-radius: 8px;
     background-color: #ffffff;
     text-align: center;
     margin-left: auto;
+    margin-right: 1%;
 
 
 }
