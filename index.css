@@ -697,3 +697,9 @@ a{
 #start{
     cursor: pointer;
 }
+.r1:hover{
+    color: greenyellow;
+}
+.r2:hover{
+    color: greenyellow;
+}
