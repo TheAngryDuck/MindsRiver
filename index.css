@@ -501,7 +501,7 @@ a{
     justify-content: space-between;
     flex-direction: row;
     font-family: Faune-Text_Regular;
-    font-size: 120.5%;
+    font-size: 120%;
     margin-top: auto;
     margin-bottom: auto;
     cursor: pointer;
@@ -670,7 +670,7 @@ a{
 }
 .gold:hover{
     color: gold;
-    font-size: 140%;
+    font-size: 130%;
 }
 .pink:hover{
     color: pink;
