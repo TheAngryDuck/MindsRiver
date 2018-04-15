@@ -703,3 +703,82 @@ a{
 .r2:hover{
     color: greenyellow;
 }
+/*  FAN CLUB    00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+#runeArea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#runicText{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#runes{
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 30%;
+    height: 20%;
+}
+#runeField{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.runLet{
+    margin-bottom: auto;
+    margin-top: auto;
+}
+#runeStory{
+    width: 70%;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.6vw;
+
+}
+#cult{
+    margin-top: auto;
+}
+#runePassButton{
+    width: 12%;
+    font-family: Faune-Text_Regular;
+    height: 100%;
+    align-self: center;
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+    color: #000000;
+    padding: 0 1% 2% 1%;
+    text-decoration: none;
+    text-align: center;
+
+    font-size: 1.2vw;
+}
+#runePassButton:hover{
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+

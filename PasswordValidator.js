@@ -24,7 +24,10 @@ function passwordValid() {
         window.location.replace("https://www.youtube.com/watch?v=M11SvDtPBhA");
     }else if(guess === lamb){
         window.location.replace("https://www.youtube.com/watch?v=AMT698ArSfQ");
-    }else{
+    }else if (guess === crow){
+        window.location.replace(zone);
+    }
+    else{
         alert("ACCESS DENIED!");
     }
 }
