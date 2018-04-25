@@ -1,5 +1,6 @@
 function passwordValid() {
     var guess = document.getElementById("PasswordField").value;
+    var owl = "https://www.mindsriver.com/owlGame/mainMenuUk.html";
 
     console.log("guess: " + guess);
     if (guess.toLowerCase() === lizard){
@@ -26,6 +27,8 @@ function passwordValid() {
         window.location.replace("https://www.youtube.com/watch?v=AMT698ArSfQ");
     }else if (guess === crow){
         window.location.replace(zone);
+    }else if(guess === "first ever game"){
+        window.location.replace(owl)
     }
     else{
         alert("ACCESS DENIED!");
