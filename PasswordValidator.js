@@ -5,29 +5,29 @@ function passwordValid() {
     console.log("guess: " + guess);
     if (guess.toLowerCase() === lizard){
         window.location.replace(local);
-    }else if(guess == null){
+    }else if(guess.toLowerCase() == null){
         alert("ACCESS DENIED!");
-    }else if(guess === monkey){
+    }else if(guess.toLowerCase() === monkey){
         window.location.replace("https://www.youtube.com/watch?v=kffacxfA7G4");
-    }else if(guess === cow){
+    }else if(guess.toLowerCase() === cow){
         window.location.replace("https://www.youtube.com/watch?v=QJO3ROT-A4E");
-    }else if(guess === dog){
+    }else if(guess.toLowerCase() === dog){
         window.location.replace("https://www.youtube.com/watch?v=6M6samPEMpM");
-    }else if(guess === parrot){
+    }else if(guess.toLowerCase() === parrot){
         window.location.replace("https://www.youtube.com/watch?v=C-u5WLJ9Yk4");
-    }else if(guess === bull){
+    }else if(guess.toLowerCase() === bull){
         window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
-    }else if(guess === cat){
+    }else if(guess.toLowerCase() === cat){
         window.location.replace("https://www.youtube.com/watch?v=kfVsfOSbJY0");
-    }else if(guess === bunny){
+    }else if(guess.toLowerCase() === bunny){
         window.location.replace("https://www.youtube.com/watch?v=1qN72LEQnaU");
-    }else if(guess === toad){
+    }else if(guess.toLowerCase() === toad){
         window.location.replace("https://www.youtube.com/watch?v=M11SvDtPBhA");
-    }else if(guess === lamb){
+    }else if(guess.toLowerCase() === lamb){
         window.location.replace("https://www.youtube.com/watch?v=AMT698ArSfQ");
-    }else if (guess === crow){
+    }else if (guess.toLowerCase() === crow){
         window.location.replace(zone);
-    }else if(guess === "first ever game"){
+    }else if(guess.toLowerCase() === "first ever game"){
         window.location.replace(owl)
     }
     else{
