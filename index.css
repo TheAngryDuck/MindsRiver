@@ -272,7 +272,7 @@ a{
 }
 
     /*ABOUT LVL1      00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
-#BaguaFamily{
+#aboutContent{
     display: flex;
     flex-direction: row;
     justify-content: center;
