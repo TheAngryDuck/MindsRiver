@@ -15,3 +15,7 @@ function message() {
         "By taking a right a familiar place you will see.\n" +
         "Taking right twice leads to a building most grand. In the middle of that land your answer will stand.");
 }
+//THIS IS NOT FOR YOUR EYES. TRY PLAYING THE GAME.
+//THIS IS NOT FOR YOUR EYES. TRY PLAYING THE GAME.
+//THIS IS NOT FOR YOUR EYES. TRY PLAYING THE GAME.
+//THIS IS NOT FOR YOUR EYES. TRY PLAYING THE GAME.

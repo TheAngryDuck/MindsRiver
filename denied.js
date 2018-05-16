@@ -22,6 +22,7 @@ document.onkeydown = function(e) {
         return false;
     }
 };
+//THIS IS NOT FOR YOUR EYES. TRY PLAYING THE GAME.
 
 
 

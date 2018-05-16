@@ -13,4 +13,6 @@ function wrapChars(str, tmpl) {
     return answer;
 }
 
+//THIS IS NOT FOR YOUR EYES. TRY PLAYING THE GAME.
+
 

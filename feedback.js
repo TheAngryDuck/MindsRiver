@@ -15,3 +15,6 @@ function travelPlan() {
         alert("Your final answer is: desc");
     }
 }
+//THIS IS NOT FOR YOUR EYES. TRY PLAYING THE GAME.
+//THIS IS NOT FOR YOUR EYES. TRY PLAYING THE GAME.
+//THIS IS NOT FOR YOUR EYES. TRY PLAYING THE GAME.

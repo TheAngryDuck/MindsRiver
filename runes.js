@@ -5,3 +5,5 @@ function rune() {
         alert("Your answer lies on a JOURNEY of ICE");
     }
 }
+
+//THIS IS NOT FOR YOUR EYES. TRY PLAYING THE GAME.
