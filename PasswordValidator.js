@@ -2,6 +2,8 @@ function passwordValid() {
     var guess = document.getElementById("PasswordField").value;
     var owl = "https://www.mindsriver.com/owlGame/mainMenuUk.html";
 
+    //THIS IS NOT FOR YOUR EYES. TRY PLAYING THE GAME.
+
     console.log("guess: " + guess);
     if (guess.toLowerCase() === lizard){
         window.location.replace(local);
