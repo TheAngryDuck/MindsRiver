@@ -21,7 +21,7 @@ document.onkeydown = function(e) {
         alert("This is not intended for this page. Tread at your own risk!");
         return false;
     }
-}
+};
 
 
 

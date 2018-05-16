@@ -954,4 +954,107 @@ a{
     height: 25%;
     background-color:#660000 ;
 }
+    /*  Mission LVL 3 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
 
+#missionContent{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    background: linear-gradient(#660000, #330000);
+    cursor: pointer;
+}
+#missionTextArea{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+#missionTitle{
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+}
+#missionText{
+    font-size: 130%;
+    text-align: center;
+}
+#missionTextStyle{
+    color: white;
+}
+.people{
+    color: white;
+    cursor: pointer;
+}
+.people:hover{
+    color: rgba(77, 0, 0, 1);
+    cursor: pointer;
+}
+.normalWord{
+    color: white;
+}
+    /*  locked out LVL3 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+#finalLvlLocked{
+    background-color: #e60000;
+}
+.Box3Locked{
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 7px;
+    background-color: #e60000;
+}
+#lockedContent{
+    background: #cc0000;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#lockImg{
+    width: 20%;
+    height: 35%;
+}
+    /*  credits 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+
+#exitPage{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-family: Faune-Text_Regular;
+
+}
+
+#exitBox{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    background: #b30000;
+    justify-content: center;
+    text-align: center;
+    border-radius: 40px;
+}
+
+#exitText {
+
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-around;
+    font-size: 1.8vw;
+}
+#exitBody{
+    background: linear-gradient(#660000, #330000);
+}
+#credits{
+    font-size: 300%;
+}

@@ -29,6 +29,8 @@ function passwordValid() {
         window.location.replace(zone);
     }else if(guess.toLowerCase() === "first ever game"){
         window.location.replace(owl)
+    }else if(guess.toLowerCase() === god){
+        window.location.replace(land);
     }
     else{
         alert("ACCESS DENIED!");

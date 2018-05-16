@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115755738-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-115755738-1');
+    </script>
+    <script src="denied.js"></script>
+    <meta charset="utf-8">
+
+    <title>Second gate</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="accessGranter.js"></script>
+    <script src="DoorsOfDurin.js"></script>
+
+</head>
+<body id="finalLvlLocked">
+<div class="Box3Locked">
+    <div class="BannerBar3">
+        <div id="Logo3">
+            <a href="#" onclick="logo()"><img id="LogoPic" src="Images/logo3.4.png"></a>
+        </div>
+        <div id="Banner">
+            <a href="#" onclick="banner()"><img id="BannerImg" src="Images/banner3.2.png"></a>
+        </div>
+
+    </div>
+    <div id="MenuBar3">
+        <a href="#" class="Menu3" onclick="accessDenied()"><span id="Lvl3MenuText">MISSION</span></a>
+    </div>
+    <div class="Content" id="lockedContent">
+        <div id="lock">
+            <img src="Images/lock.png" id="lockImg">
+        </div>
+
+        <div id="passwordLVL1">
+            <input id="PasswordField" type="password" title="Password"><br>
+        </div>
+    </div>
+</div>
+</body>
+</html>
