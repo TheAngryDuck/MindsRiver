@@ -1016,6 +1016,10 @@ a{
     flex-direction: column;
     justify-content: space-evenly;
 }
+#deniedText{
+    font-size: 230%;
+
+}
 #lockImg{
     width: 20%;
     height: 35%;
